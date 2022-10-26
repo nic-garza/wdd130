@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: lightblue;
+}
+nav {
+    background-color: #FB8500;
+}
+nav a {
+    text-align: center;
+    color: black;
+}
+.home-title {
+    color:white;
+}
+h4 {
+    color: white;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #0077B6;
+}
+nav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+.book, .join {
+    background-color:#8ECAE6;
+    color: black;
+
+}
+.book:hover, .join:hover{
+    background-color: #219EBC;
+    color: black;
+}
+.msg {
+    background-color: #FB8500;
+}
+footer {
+    background-color: #FB8500;
+    
+}
