@@ -1,54 +1,75 @@
-div {
-    max-width: 1600px;
+body {
+    background-color: grey;
 }
-
 #content {
+    max-width: 1600px;
     margin: 0 auto;
-}
-nav, a, #hero-msg h1, #hero-msg h4
-.button-box
-main {
-    text-align:center;
-
-}
-#Background {
-    height: 725px;
-}
-nav {
-    background-color: orange;
 }
 header {
     background-color: lightblue;
 }
-body {
-    background-color: grey;
+nav {
+    background-color: #FB8500;
 }
-a:hover,.book, .join
-.book:hover, .join:hover
-#background
-.msg {
-    background-color: lightblue;
+nav a {
+    text-align: center;
     color: black;
-
-}
-footer {
-    background-color: orange;
-}
-.icon {
-    width: 80px;
-}
-#hero-img {
-    width: 100%;
-}
-nav a
-.book, .join
-footer a{
     text-decoration: none;
 }
-footer p {
-    font-size: 1.2em;
-}    
-footer p a:hover {
-    text-decoration: underline;
+.home-title {
+    color:white;
 }
-
+h4 {
+    color: white;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #0077B6;
+}
+nav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+.book, .join {
+    background-color:#8ECAE6;
+    color: black;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: #219EBC;
+    color: black;
+}
+.msg {
+    background-color: #FB8500;
+}
+footer {
+    background-color: #FB8500;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+.icon { 
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
