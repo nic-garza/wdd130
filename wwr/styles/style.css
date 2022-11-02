@@ -64,8 +64,14 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
 #background {
     height: 725px;
@@ -78,6 +84,7 @@ main section {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #219EBC;
