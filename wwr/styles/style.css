@@ -115,7 +115,6 @@ section.mountain-card {
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 8;
-    background-color: #BB9457;
 }
 
 img.mountain-image {
@@ -231,13 +230,13 @@ main section {
     text-align: center;
 }
 
-#background {
+div#Background {
     height: 725px;
-    background-color: #0077B6;
     grid-column-start: 1;
     grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: 9;
+    background-color: #bb9457;
 }
 
 body {
