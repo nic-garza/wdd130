@@ -115,7 +115,7 @@ section.mountain-card {
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 8;
-    
+    background-color: #BB9457;
 }
 
 img.mountain-image {
