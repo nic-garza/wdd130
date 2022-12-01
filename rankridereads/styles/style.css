@@ -6,6 +6,7 @@
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color:rgba(20,30,13, .7);
 }
 #rrrlogo  {
     padding-top: 5px;
@@ -59,3 +60,33 @@ img#rigby-img {
     text-align: center;
     color: white;
 }
+/* FOOTER */ 
+footer {
+    background-color: #583101;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}  
+
+footer a:hover {
+    color: lightblue;
+}
+
+footer .social img {
+    padding-top: 15px;
+}  
