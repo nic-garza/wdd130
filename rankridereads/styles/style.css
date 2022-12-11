@@ -166,3 +166,26 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }  
+
+/* Subpage 1 */
+#rosin-img {
+    width: 500px;
+    height:500px;
+}
+#waiting-img {
+    width: 500px;
+    height: 500px;
+}
+main.home-grid-two {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+#rosin {
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+#waiting {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
