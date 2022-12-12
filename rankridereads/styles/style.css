@@ -170,11 +170,13 @@ footer .social img {
 /* Subpage 1 */
 #rosin-img {
     width: 500px;
-    height:500px;
+    height:850px;
+    border: 10px solid black;
 }
 #waiting-img {
     width: 500px;
-    height: 500px;
+    height: 600px;
+    border: 10px solid black;
 }
 main.home-grid-two {
     display: grid;
